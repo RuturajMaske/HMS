@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hostel Management System - Student Login</title>
+  <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Student Login</h2>
+    <form id="loginForm" onsubmit="return validateForm()">
+      <div class="input-group">
+        <label for="studentId">Student ID:</label>
+        <input type="text" id="studentId" name="studentId" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="input-group">
+        <button type="submit" class="btn">Login</button>
+        <br>
+        <a href="http://127.0.0.1:3000/indexNew Account.html">Create New Account</a>
+      </div>
+      <div class="error" id="error-message"></div>
+      <a href="http://127.0.0.1:3000/index.html">Back</a>
+      
+    </form>
+  </div>
+
+  <script src="index1.js"></script>
+</body>
+</html>
